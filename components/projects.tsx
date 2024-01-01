@@ -34,7 +34,7 @@ type ProjectProps = (typeof projectsData)[number];
 function Project({ title, description, tags, imageUrl }: ProjectProps) {
   return (
     <section className="group overflow-hidden border-b border-gray-300 dark:border-gray-700 relative md:odd:pr-16 md:odd:pl-20 md:px-20 px-10 pb-16 lg:pb-20 xl:px-28 xl:pb-28 pt-16 md:mt-6 lg:mt-20 mt-0">
-      <div className="md:max-w-[45%] flex flex-col h-full md:group-odd:ml-[26rem] lg:group-odd:ml-[35rem] md:xl:max-w-[40%]">
+      <div className="md:max-w-[45%] flex flex-col h-full md:group-odd:ml-[30rem] lg:group-odd:ml-[40rem] xl:group-odd:ml-[45rem] md:xl:max-w-[40%]">
         <motion.h3
           className="text-2xl font-medium mb-4 lg:mb-6 xl:mb-8 xl:text-5xl lg:text-4xl"
           initial={{ opacity: 0, y: 100 }}

@@ -1,7 +1,7 @@
 import React from "react";
 import rabitsImage from "@/public/rabits.png";
 import timelessImage from "@/public/taste.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ekrebImage from "@/public/ekreb.png";
 
 export const links = [
   {
@@ -42,11 +42,11 @@ export const projectsData = [
     imageUrl: timelessImage,
   },
   {
-    title: "Word Analytics",
+    title: "Ekreb",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A word unscrambling game with hints and a puzzle to solve.",
+    tags: ["React", "Express.js", "Node.js", "Tailwind"],
+    imageUrl: ekrebImage,
   },
 ] as const;
 

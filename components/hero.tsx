@@ -28,10 +28,22 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, type: "spring", delay: 0.1 }}
         >
-          I am a Computer Science student at Vanderbilt University. My work and
-          projects are focused on full-stack development on web and mobile. I am
-          currently working with React Native at Express.js at a non-profit
-          called Friends Life Community.
+          I am a Computer Science student at{" "}
+          <span className="font-normal hover:text-gray-500">
+            <a href="https://www.vanderbilt.edu/" target="_blank">
+              Vanderbilt University
+            </a>
+          </span>
+          . My work and projects are focused on full-stack development on web
+          and mobile. I am currently working with{" "}
+          <span className="italic">React Native</span> and{" "}
+          <span className="italic">Express.js</span> at a non-profit called{" "}
+          <span className="font-normal hover:text-gray-500">
+            <a href="https://friendslife.org/" target="_blank">
+              Friends Life Community
+            </a>
+          </span>
+          .
         </motion.p>
         <motion.div
           className="flex flex-wrap items-center justify-center sm:gap-8 gap-4 lg:text-3xl md:text-2xl sm:text-xl text-lg sm:mx-0 mx-4"
@@ -48,7 +60,7 @@ export default function Hero() {
           </Link>
           <a
             href="/Resume6.pdf"
-            download
+            target="_blank"
             className="bg-white dark:bg-opacity-10 dark:text-white/60 dark:hover:text-white/90 sm:px-8 sm:py-4 px-4 py-2 flex text-gray-800 items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 transition active:scale-[102%] shadow-md hover:text-gray-950"
           >
             Resume
