@@ -59,7 +59,7 @@ export default function Hero() {
             <BsArrowRight className="group-hover:translate-x-1 transition" />
           </Link>
           <a
-            href="/Resume6.pdf"
+            href="/Resume7.pdf"
             target="_blank"
             className="bg-white dark:bg-opacity-10 dark:text-white/60 dark:hover:text-white/90 sm:px-8 sm:py-4 px-4 py-2 flex text-gray-800 items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 transition active:scale-[102%] shadow-md hover:text-gray-950"
           >
