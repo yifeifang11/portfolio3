@@ -8,12 +8,12 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     <section
-      className="flex border-b border-gray-300 dark:border-gray-700 scroll-m-[4.5rem]"
+      className="flex border-b md:flex-row flex-col border-gray-300 dark:border-gray-700 scroll-m-[4.5rem]"
       id="about"
     >
-      <div className="border-r dark:border-gray-800 border-gray-300 p-16">
+      <div className="sm:border-r border-b dark:border-gray-800 border-gray-300 lg:p-16 p-8">
         <motion.h1
-          className="text-7xl font-semibold mb-8"
+          className="md:text-5xl sm:text-4xl text-3xl font-semibold lg:mb-8 mb-4"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -22,7 +22,7 @@ export default function About() {
           About Me
         </motion.h1>
         <motion.p
-          className="text-md font-light mb-4 lg:text-xl xl:text-2xl"
+          className="sm:text-lg font-light text-md mb-4 lg:text-xl xl:text-2xl"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -39,7 +39,7 @@ export default function About() {
           impact with my skills.
         </motion.p>
         <motion.p
-          className="text-md font-light lg:text-xl xl:text-2xl"
+          className="sm:text-lg text-md font-light lg:text-xl xl:text-2xl"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -50,7 +50,7 @@ export default function About() {
         </motion.p>
       </div>
       <motion.div
-        className="p-10"
+        className="lg:p-10 p-6"
         initial={{ opacity: 0, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
@@ -60,7 +60,7 @@ export default function About() {
           src={pfp}
           alt=""
           quality={95}
-          className="h-full w-full object-cover dark:opacity-90"
+          className="h-full w-full object-cover dark:opacity-90 lg:scale-100 sm:scale-80 scale-70"
         />
       </motion.div>
     </section>
