@@ -15,7 +15,7 @@ export default function Hero() {
     >
       <div className="flex flex-col max-w-[60rem]">
         <motion.h1
-          className="lg:text-8xl md:text-7xl sm:text-6xl text-5xl font-semibold text-center mb-4 text-gray-800 dark:text-gray-50 dark:text-opacity-80 sm:mx-0 mx-4"
+          className="lg:text-8xl md:text-7xl sm:text-6xl text-4xl font-semibold text-center mb-4 text-gray-800 dark:text-gray-50 dark:text-opacity-80 sm:mx-0 mx-2 mt-16 sm:mt-0"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, type: "spring" }}
@@ -23,7 +23,7 @@ export default function Hero() {
           Hi! I&apos;m Yifei Fang
         </motion.h1>
         <motion.p
-          className="lg:text-3xl md:text-2xl sm:text-xl text-lg lg:mx-0 md: mx-16 font-light text-center mb-12 text-gray-800 dark:text-gray-50 dark:text-opacity-80"
+          className="lg:text-3xl md:text-2xl sm:text-xl text-lg lg:mx-0 sm:mx-16 mx-4 font-light text-center sm:mb-12 mb-8 text-gray-800 dark:text-gray-50 dark:text-opacity-80"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, type: "spring", delay: 0.1 }}
